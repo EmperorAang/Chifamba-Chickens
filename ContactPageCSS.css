@@ -1,0 +1,59 @@
+/* Inherit styles from other pages */
+@import url("main.css"); /* Replace with the actual path to your main style sheet */
+  
+  /* Contact Form */
+  .contact-form {
+    padding: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .contact-form input[type="text"],
+  .contact-form textarea {
+    width: 48%;
+    padding: 0.8rem 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+  }
+  
+  .contact-form textarea {
+    height: 100px;
+  }
+  
+  .contact-form button {
+    background-color: #247ba0;
+    color: #fff;
+    padding: 0.8rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .contact-form button:hover {
+    background-color: #1e679a;
+  }
+  
+  /* Contact Info */
+  .contact-info {
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .contact-info h2 {
+    margin-bottom: 1rem;
+  }
+  
+  .contact-info p {
+    margin-bottom: 0.5rem;
+  }
+  
+  .contact-info i {
+    font-size: 1.5rem;
+    margin-right: 0.5rem;
+    color: #247ba0;
+  }
+  

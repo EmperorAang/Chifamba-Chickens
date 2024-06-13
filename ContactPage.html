@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chifamba Chickens - Contact Us</title>
+  <link rel="stylesheet" href="ContactPageCSS.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <script  src="ContactPageJavaScript.js"></script>
+
+</head>
+<body>
+  <header class="header">
+    <nav class="nav">
+      <a href="Home.html" class="logo">
+        <img src="Chifamba Chickens-02.svg" alt="Chifamba Chickens Logo">
+      </a>
+      <ul>
+        <li><a href="Home.html">Home</a></li>
+        <li><a href="AboutUs.html">About Us</a></li>
+        <li><a href="Products.html">Products</a></li>
+        <li><a href="WhyChooseUs.html">Why Choose Us</a></li>
+        <li class="active"><a href="ContactPage.html">Contact</a></li>
+        <li><a href="Cart.html">Cart</a></li>
+        <li><a href="LoginAndReg.html">Login</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="contact-us">
+      <h2>Contact Chifamba Chickens</h2>
+      <p>We'd love to hear from you! Fill out the form below or reach out to our friendly customer service team using the information provided.</p>
+      <div class="contact-wrapper">
+        <div class="contact-form">
+          <form action="submit_contact.php" method="post"> <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send Message</button>
+          </form>
+        </div>
+        <div class="contact-info">
+          <h2>Contact Information</h2>
+          <p><i class="fas fa-phone"></i> +263 77 221 9631</p>
+          <p><i class="fas fa-envelope"></i> info@chifambachickens.co.zw</p>
+          <p><i class="fas fa-map-marker-alt"></i> 123 Shelby Farm, Harare, Zimbabwe</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; Chifamba Chickens 2024</p>
+    <ul class="social-media">
+      <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+      <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+      <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+      <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+    </ul>
+  </footer>
+</body>
+</html>

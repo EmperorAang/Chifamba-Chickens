@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chifamba Chickens - Your Cart</title>
+  <link rel="stylesheet" href="CartStyle.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <script  src="CartJavaScript.js"></script>
+</head>
+<body>
+  <header class="header">
+    <nav class="nav">
+      <a href="Home.html" class="logo">
+        <img src="Chifamba Chickens-02.svg" alt="Chifamba Chickens Logo">
+      </a>
+      <ul>
+        <li><a href="Home.html">Home</a></li>
+        <li><a href="AboutUs.html">About Us</a></li>
+        <li><a href="Products.html">Products</a></li>
+        <li><a href="WhyChooseUs.html">Why Choose Us</a></li>
+        <li><a href="ContactPage.html">Contact</a></li>
+        <li class="active"><a href="Cart.html">Cart</a></li>
+        <li><a href="LoginAndReg.html">Login</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="cart">
+      <h2>Your Shopping Cart</h2>
+      <div id="cart-list">
+        </div>
+      <p id="empty-cart-message" style="display: none;">Your cart is currently empty.</p>
+      <div class="cart-summary" style="display: none;">
+        <h3>Cart Summary</h3>
+        <p id="cart-subtotal">Subtotal: $<span id="subtotal-amount">0.00</span></p>
+        <p id="shipping-cost">Shipping Cost: $<span id="shipping-amount">0.00</span></p>
+        <p id="cart-total"><b>Total: $<span id="total-amount">0.00</span></b></p>
+        <a href="#" class="checkout-btn">Proceed to Checkout</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; Chifamba Chickens 2024</p>
+    <a href="ContactPage.html">Contact Us</a>
+    <ul class="social-media">
+      <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+      <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+      <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+      <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+    </ul>
+  </footer>
+</body>
+</html>

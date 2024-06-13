@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chifamba Chickens - Fresh, Free-Range Chicken</title>
+  <link rel="stylesheet" href="ProductsStyle.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <script  src="ProductsJavaScript.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+  <header class="header">
+    <nav class="nav">
+      <a href="Home.html" class="logo">
+        <img src="Chifamba Chickens-02.svg" alt="Chifamba Chickens Logo">
+      </a>
+      <ul>
+        <li><a href="Home.html">Home</a></li>
+        <li><a href="AboutUs.html">About Us</a></li>
+        <li class="active"><a href="Products.html">Products</a></li>
+        <li><a href="WhyChooseUs.html">Why Choose Us</a></li>
+        <li><a href="ContactPage.html">Contact</a></li>
+        <li><a href="Cart.html">Cart</a></li>
+        <li><a href="LoginAndReg.html">Login</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="product-details">
+      <div class="product-image">
+        <img src="ChickWhole.jpg" alt="Image of Whole Chicken">
+      </div>
+      <div class="product-info">
+        <h2>Fresh, Free-Range Whole Chicken</h2>
+        <p>Our delicious whole chicken is perfect for a family meal. Raised on a wholesome, vegetarian diet and free to roam our spacious pastures, this chicken is naturally flavorful and juicy.</p>
+        <div class="price-cart">
+          <p class="price">$<span>12.99</span></p>
+          <form action="Cart.html" method="post">
+            <input type="number" name="quantity" min="1" value="1">
+            <button type="submit">Add to Cart</button>
+          </form>
+        </div>
+        <ul class="product-features">
+          <li>Free-range chickens</li>
+          <li>Vegetarian diet</li>
+          <li>No antibiotics or hormones</li>
+          <li>Fresh, never frozen</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="related-products">
+      <h2>You May Also Like</h2>
+      <div class="product-grid">
+        <div class="product-card">
+          <a href="product.html">
+            <img src="ChickBreast.jpg" alt="Image of Chicken Breast">
+            <h3>Chicken Breast</h3>
+            <p>Boneless, skinless chicken breasts, perfect for grilling, baking, or stir-fries.</p>
+          </a>
+        </div>
+        </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; Chifamba Chickens 2024</p>
+    <ul class="social-media">
+        <li><a href="#"><i class="bxl-facebook-circle"></i></a></li>
+        <li><a href="#"><i class="bxl-instagram-alt"></i></a></li>
+        <li><a href="#"><i class="bxl-twitter"></i></a></li>
+    </ul>
+  </footer>
+</body>
+</html>

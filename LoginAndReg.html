@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chifamba Chickens - Login/Register</title>
+  <link rel="stylesheet" href="LoginAndRegStyle.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <script  src="LoginAndRegJavaScript.js"></script>
+  
+</head>
+<body>
+  <header class="header">
+    <nav class="nav">
+      <a href="Home.html" class="logo">
+        <img src="Chifamba Chickens-02.svg" alt="Chifamba Chickens Logo">
+      </a>
+      <ul>
+        <li><a href="Home.html">Home</a></li>
+        <li><a href="AboutUs.html">About Us</a></li>
+        <li><a href="Products.html">Products</a></li>
+        <li><a href="WhyChooseUs.html">Why Choose Us</a></li>
+        <li><a href="ContactPage.html">Contact</a></li>
+        <li class="active"></li><a href="LoginAndReg.html">Login</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="login-register">
+      <div class="container">
+        <ul class="nav nav-tabs">
+          <li class="active"><a href="login.php" data-toggle="tab">Login</a></li>
+          <li><a href="Registration.php" data-toggle="tab">Register</a></li>
+        </ul>
+
+        <div class="tab-content">
+          <div class="tab-pane active" id="login">
+            <h2>Login</h2>
+            <form action="login.php" method="post">
+              <div class="form-group">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" placeholder="Enter username">
+              </div>
+              <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" placeholder="Enter password">
+              </div>
+              <div class="form-group">
+                <label for="remember_me">
+                  <input type="checkbox" id="remember_me" name="remember_me">
+                  Remember Me
+                </label>
+              </div>
+              <button type="submit" class="btn btn-primary">Login</button>
+              <a href="#" class="forgot-password">Forgot Password?</a>
+            </form>
+          </div>
+          <div class="tab-pane" id="register">
+            <h2>Register</h2>
+            <form action="register.php" method="post">
+              <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name">
+              </div>
+              <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email">
+              </div>
+              <div class.form-group>
+                <label for="username_reg">Username:</label>
+                <input type="text" id="username_reg" name="username_reg" placeholder="Enter desired username">
+              </div>
+              <div class="form-group">
+                <label for="password_reg">Password:</label>
+                <input type="password" id="password_reg" name="password_reg" placeholder="Enter password">
+              </div>
+              <div class="form-group">
+                <label for="confirm_password">Confirm Password:</label>
+                <input type="password" id="confirm_password" name="confirm_password" placeholder="Confirm password">
+              </div>
+              <button type="submit" class="btn btn-primary">Register</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; Chifamba Chickens 2024</p>
+    <a href="ContactPage.html">Contact Us</a>
+    <ul class="social-media">
+        <li><a href="#"><i class="bxl-facebook-circle"></i></a></li>
+        <li><a href="#"><i class="bxl-instagram-alt"></i></a></li>
+        <li><a href="#"><i class="bxl-twitter"></i></a></li>
+      </ul>
+    </footer>
+  </body>
+  </html>
